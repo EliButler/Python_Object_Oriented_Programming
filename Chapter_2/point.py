@@ -1,3 +1,5 @@
+import math
+
 class Point:
     def __init__(self, x: float, y: float) -> None:
         self.move(x, y)
@@ -11,3 +13,4 @@ class Point:
 
     def calculate_distance(self, other: "Point") -> float:
         return math.hypot(self.x - other.x, self.y - other.y)
+
