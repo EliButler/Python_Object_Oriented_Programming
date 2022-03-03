@@ -14,3 +14,4 @@ class Point:
     def calculate_distance(self, other: "Point") -> float:
         return math.hypot(self.x - other.x, self.y - other.y)
 
+""" I cannot get the pc to use -i point.py """
